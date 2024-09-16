@@ -1,0 +1,158 @@
+.cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-primary {
+    color: var(--text-primary);
+}
+.text-secondary {
+    color: var(--text-secondary);
+}
+.text-lighter {
+    color: var(--text-lighter);
+}
+.text-action-primary {
+    color: var(--action--primary);
+}
+.text-action-secondary {
+    color: var(--action--secondary);
+}
+.text-white {
+    color: #FFFFFF;
+}
+.text-regular {
+    font-weight: 400;
+}
+.text-semibold {
+    font-weight: 600;
+}
+.text-bold {
+    font-weight: 900;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-xs {
+    font-size: 0.75rem;
+}
+.text-sm {
+    font-size: 0.875rem;
+}
+.text-lg {
+    font-size: 2.875rem;
+}
+.text-gap {
+    letter-spacing: 0.25rem;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+.highlight {
+    content: '';
+    height: 100%;
+    width: 50%;
+    background-color: var(--action--primary);
+    background-size: 15%;
+}
+.colorful {
+    background-image: linear-gradient(to left, steelblue, turquoise);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.rounded {
+    border-radius: 1.25rem;
+}
+
+.aspect-square {
+    aspect-ratio: 1/1;
+}
+
+.w-half {
+    width: 50%;
+}
+.w-full {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-grow {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.gap {
+    gap: 2.875rem;
+}
+.xs-gap {
+    gap: 0.625rem;
+}
+.sm-gap {
+    gap: 1.875rem;
+}
+.lg-gap {
+    gap: 3.125rem;
+}
+.xl-gap {
+    gap: 4rem;
+}
+
+.grid {
+    display: grid;
+}
+.grid.cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.m-none {
+    margin: 0 !important;
+}
+.p-none {
+    padding: 0 !important;
+}
+
+.space-lg {
+    margin-bottom: 6rem;
+}
+
+.hr {
+    margin-top: 5.25rem;
+    margin-bottom: 3.25rem;
+    border: none;
+    border-bottom: 1px solid var(--text-secondary);
+    width: 100%;
+}
+.hr.small {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.hr.medium {
+    margin-top: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.icon {
+    width: 1.5rem;
+    aspect-ratio: 1/1;
+}

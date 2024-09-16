@@ -1,0 +1,8 @@
+.hero {
+    background: center / cover no-repeat url('../../img/hero.jpg');
+    height: 35rem;
+    border-radius: 1.25rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    margin-bottom: 4.625rem;
+}

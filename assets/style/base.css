@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --text-primary: #262626;
+    --text-secondary: #BCBCBC;
+    --action--primary: #4CE0D7;
+    --action--secondary: #F25E5E;
+    --text-lighter: #E0E0E0;
+}
+
+body {
+    background-color: #F9F9F9;
+    color: var(--text-primary);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+button {
+    border: none;
+    height: fit-content;
+}
+
+input[type="email"] {
+    border-radius: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-color: var(--text-secondary);
+}
+input[type="email"]::placeholder {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+header {
+    margin-bottom: 1.5rem;
+}
+header nav ol {
+    list-style: none;
+}
+
+footer {
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    background-color: #FFFFFF;
+}
+
+aside, .aside {
+    width: 25%;
+    flex-basis: 1;
+}

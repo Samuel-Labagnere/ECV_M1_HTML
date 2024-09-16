@@ -1,0 +1,35 @@
+.btn, .card-header .card-tag {
+    background-color: var(--action--primary);
+    border-radius: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    white-space: nowrap;
+}
+button.btn {
+    border-radius: 150px;
+    padding-top: 0.75rem;
+}
+.btn-icon {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.btn-arrow {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.arrow-btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--action--primary);
+    letter-spacing: 0.25rem;
+}
+.arrow-btn::before {
+    content: '';
+    background: no-repeat url('../../img/long-arrow.svg');
+    width: 2rem;
+    height: 1rem;
+}
